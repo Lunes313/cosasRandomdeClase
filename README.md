@@ -1,1 +1,1 @@
-Ejercicios de clase random en java
+Ejercicios random en java
