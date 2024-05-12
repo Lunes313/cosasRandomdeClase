@@ -2,7 +2,6 @@ package Semana14.Vehiculo;
 
 public class Camion extends Vehiculo{
     private double capacidadCarga;
-
     public Camion(String marca, String modelo, int año, String color,
                   int numPuertas, int numPasajeros, double capacidadCarga){
         super(marca, modelo, año, color, numPuertas, numPasajeros);
