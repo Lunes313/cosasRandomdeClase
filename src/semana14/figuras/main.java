@@ -1,16 +1,15 @@
 package Semana14.figuras;
-
+//Laura Restrepo Berrio
+//Fecha: 12/05/2024
+//Semana 14 Ejercicio 2
 public class main {
     public static void main(String[] args) {
 
-        Circulo Circulo1 = new Circulo(6);
-        System.out.println("El area del Ciruclo es: " + Circulo1.getArea());
-        System.out.println("El perimetro del Ciruclo es: " + Circulo1.getPerimetro());
+        Circulo cir = new Circulo(6, "azul");
+        cir.imprimir();
 
-        Cuadrado cuadrado1 = new Cuadrado(4, 5);
-        System.out.println("El area del Cuadrado es: " + cuadrado1.getArea());
-        System.out.println("El perimetro del Cuadrado es: " + cuadrado1.getPerimetro());
+        Cuadrado cuadro = new Cuadrado(4, 5, "rojo");
+        cuadro.imprimir();
 
     }
-
 }

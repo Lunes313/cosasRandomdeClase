@@ -1,5 +1,7 @@
 package Semana14.PersonaHerencia;
-
+//Laura Restrepo Berrio
+//Fecha: 12/05/2024
+//Semana 14 Ejercicio 1
 public class Persona{
     private String Nombre;
     private String Apellido;
@@ -8,9 +10,8 @@ public class Persona{
     private String Genero;
     private String Direccion;
     private String Telefono;
-
-
-    public Persona(String nombre, String apellido, int añoNacimiento, String genero, String direccion, String telefono) {
+    public Persona(String Nombre, String Apellido, int añoNacimiento,
+                   String Genero, String Direccion, String Telefono) {
         this.Nombre = Nombre;
         this.Apellido = Apellido;
         this.Genero = Genero;
