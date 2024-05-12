@@ -1,5 +1,6 @@
+package Semana12;
 //Laura Restrepo Berrio
-//Fecha: 10/11/2020
+//Fecha: 11/05/2020
 //Semana 12 Ejercicio 9
 import java.util.Scanner;
 public class Semana12ej9 {

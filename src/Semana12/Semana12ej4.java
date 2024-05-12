@@ -1,7 +1,7 @@
 package Semana12;
 
 //Laura Restrepo Berrio
-//Fecha: 10/11/2020
+//Fecha: 11/05/2024
 //Semana 12 Ejercicio 4
 public class Semana12ej4 {
     public static void main(String[] args) {

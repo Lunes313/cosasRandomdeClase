@@ -1,5 +1,6 @@
-package Semana12;//Laura Restrepo Berrio
-//Fecha: 10/11/2020
+package Semana12;
+//Laura Restrepo Berrio
+//Fecha: 11/05/2024
 //Semana 12 Ejercicio 3
 import java.util.ArrayList;
 import java.util.Scanner;
