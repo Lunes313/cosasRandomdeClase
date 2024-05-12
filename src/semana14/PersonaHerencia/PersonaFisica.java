@@ -1,14 +1,10 @@
 package Semana14.PersonaHerencia;
 
-public class PersonaFisica extends PersonaHerencia {
-
+public class PersonaFisica extends Persona {
         private String Identidad;
-
-        public PersonaFisica(String Nombre, String Apellido, int Edad, String Genero, String Direccion,
-                String Telefono,
-                String NIT) {
-            super(Nombre, Apellido, Edad, Genero, Direccion, Telefono);
-            this.Identidad = NIT;
+        public PersonaFisica(String Nombre, String Apellido, int añoNacimiento, String Genero, String Direccion, String Telefono, String identidad) {
+            super(Nombre, Apellido, añoNacimiento, Genero, Direccion, Telefono);
+            this.Identidad = identidad;
         }
 
         public void imprimir() {

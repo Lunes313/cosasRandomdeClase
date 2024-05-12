@@ -1,11 +1,11 @@
 package Semana14.PersonaHerencia;
 
-public class PersonaJuridica extends PersonaHerencia {
+public class PersonaJuridica extends Persona {
     private String NIT;
 
-    public PersonaJuridica(String Nombre, String Apellido, int Edad, String Genero, String Direccion, String Telefono,
+    public PersonaJuridica(String Nombre, String Apellido, int añoNacimiento, String Genero, String Direccion, String Telefono,
             String NIT) {
-        super(Nombre, Apellido, Edad, Genero, Direccion, Telefono);
+        super(Nombre, Apellido, añoNacimiento, Genero, Direccion, Telefono);
         this.NIT = NIT;
     }
 

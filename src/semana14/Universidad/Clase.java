@@ -1,4 +1,4 @@
-package Semana14.PersonaEjercicio;
+package Semana14.Universidad;
 
 import java.util.ArrayList;
 

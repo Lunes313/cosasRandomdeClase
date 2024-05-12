@@ -1,4 +1,8 @@
-package Semana14.PersonaEjercicio;
+package Semana14.Universidad;
+
+import Semana14.Universidad.Clase;
+import Semana14.Universidad.Estudiante;
+import Semana14.Universidad.Profesor;
 
 public class Universidad {
 
