@@ -1,4 +1,4 @@
-package Cuenta;
+package Semana14.Cuenta;
 
 public class CuentaAhorros extends Cuenta {
     private boolean activa;

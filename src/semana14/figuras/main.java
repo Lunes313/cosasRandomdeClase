@@ -1,3 +1,5 @@
+package Semana14.figuras;
+
 public class main {
     public static void main(String[] args) {
 

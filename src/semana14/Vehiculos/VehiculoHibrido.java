@@ -1,3 +1,5 @@
+package Semana14.Vehiculos;
+
 public class VehiculoHibrido extends Vehiculos {
     private String tipoCombustible;
     private float cilindraje;

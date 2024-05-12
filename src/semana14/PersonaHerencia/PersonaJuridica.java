@@ -1,4 +1,4 @@
-package PersonaHerencia;
+package Semana14.PersonaHerencia;
 
 public class PersonaJuridica extends PersonaHerencia {
     private String NIT;

@@ -1,4 +1,4 @@
-//Laura Andrea Castrillón Fajardo
+package Semana14.PersonaEjercicio;
 
 public class PersonaP {
     private String nombre;

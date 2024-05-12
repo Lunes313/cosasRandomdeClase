@@ -1,3 +1,5 @@
+package Semana14.figuras;
+
 public class Cuadrado {
     private double base;
     private double altura;

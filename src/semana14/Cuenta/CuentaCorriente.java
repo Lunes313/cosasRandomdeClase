@@ -1,4 +1,4 @@
-package Cuenta;
+package Semana14.Cuenta;
 
 public class CuentaCorriente extends Cuenta {
     float sobregiro;

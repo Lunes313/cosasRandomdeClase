@@ -1,3 +1,5 @@
+package Semana14.Viviendas;
+
 public class Finca extends Vivienda {
     private String animales;
 

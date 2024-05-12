@@ -1,3 +1,5 @@
+package Semana14.Vehiculos;
+
 public class Vehiculos {
 
     private String marca;

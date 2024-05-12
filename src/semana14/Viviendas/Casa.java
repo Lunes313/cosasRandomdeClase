@@ -1,3 +1,4 @@
+package Semana14.Viviendas;
 
 public class Casa extends Vivienda {
     private int cantidadPisos;

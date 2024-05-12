@@ -1,4 +1,4 @@
-package PersonaHerencia;
+package Semana14.PersonaHerencia;
 
 public class PersonaHerenciaMain {
     public static void main(String[] args) {

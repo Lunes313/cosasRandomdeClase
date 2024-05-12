@@ -1,3 +1,5 @@
+package Semana14.Vehiculos;
+
 public class VehiculoElectrico extends Vehiculos {
     private int numeroBaterias;
     private float duracionBateria;

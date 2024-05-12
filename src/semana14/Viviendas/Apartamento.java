@@ -1,3 +1,4 @@
+package Semana14.Viviendas;
 
 public class Apartamento extends Vivienda {
     private int nPisos;
