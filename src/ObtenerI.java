@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Sm5ej14 {
+public class ObtenerI {
     public static double obtenerIntereses(double precio, double tiempo) {
         double interes = precio * 0.8 * tiempo;
         return interes;

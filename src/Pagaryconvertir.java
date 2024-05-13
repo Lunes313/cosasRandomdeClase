@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Sm5ej3 {
+public class Pagaryconvertir {
     static void convertir(double d) {
         double a;
         a = d * 1.13;

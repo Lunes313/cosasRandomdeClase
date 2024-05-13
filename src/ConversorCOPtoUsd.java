@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Sm5ej1 {
+public class ConversorCOPtoUsd {
     static double dolartopesos(double trm, double num) {
         double a = num * trm;
         return a;

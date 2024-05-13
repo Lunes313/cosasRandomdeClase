@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Sm5ej2 {
+public class Conversor2 {
     static void convertir(double trm, double num, String moneda) {
         if (moneda.equals("USD")) {
             System.out.println("La cantidad en pesos es: " + String.format("%.2f",(num * trm)));
