@@ -1,10 +1,11 @@
 package Semana14.ProductoHerencia;
-
+//Laura Restrepo Berrio
+//Fecha: 12/05/2024
+//Semana 14 Ejercicio 4
 public class Producto{
     private String nombre;
     private String descripcion;
     private double precio;
-
     public Producto(String nombre, String descripcion, double precio){
         this.nombre = nombre;
         this.descripcion = descripcion;
@@ -34,5 +35,6 @@ public class Producto{
         System.out.println("El precio final con descuento es: " + precio);
     }
     public void imprimir(){
-        System.out.println("\nNombre: " + nombre + "\nDescripcion: " + descripcion + "\nPrecio: "+precio);
+        System.out.println("\nNombre: " + nombre + "\nDescripcion: " +
+                descripcion + "\nPrecio: "+precio);
 }}

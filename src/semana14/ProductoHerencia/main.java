@@ -12,20 +12,16 @@ public class main {
 
         Date fechaCaducidad = calendar.getTime();
 
-        System.out.println("Molde Producto");
+        System.out.println("Producto Perecedero");
+        Perecedero producto1 = new Perecedero("Manzana", "Manzana Roja",
+                5.000, fechaCaducidad);
+        producto1.imprimir();
+        producto1.calcularDescuento(10);
 
-        Producto uno = new Producto("Coca-Cola", "Refresco", 15.000);
-        uno.imprimir();
-        uno.calcularDescuento(10);
+        System.out.println("Producto No Perecedero");
+        NoPerece producto2 = new NoPerece("atun", "Atun enlatado", 5.600);
+        producto2.imprimir();
+        producto2.calcularDescuento(8);
 
-        System.out.println("\nProducto Perecedero");
-        Perecedero dos = new Perecedero("Papas", "Papas Fritas", 8.000, fechaCaducidad);
-        dos.imprimir();
-        dos.calcularDescuento(5);
-
-        System.out.println("\nProducto No Perecedero");
-        NoPerece tres = new NoPerece("Leche", "Leche entera", 20.000);
-        tres.imprimir();
-        tres.calcularDescuento(8);
     }
 }
