@@ -2,24 +2,38 @@ package Semana14.Viviendas;
 
 public class Casa extends Vivienda {
     private int cantidadPisos;
-
-    public Casa(float precio, int m, int nHabitaciones, int nBanos, String direccion, String tipo, int cantidadPisos) {
-        super(precio, m, nHabitaciones, nBanos, direccion, tipo);
+    private boolean patio;
+    public Casa(float precio, int numeroHabi, int numeroBaos, String direccion,
+                       float area, int cantidadPisos, boolean patio) {
+        super(precio, numeroHabi, numeroBaos, direccion, area);
         this.cantidadPisos = cantidadPisos;
+        this.patio = patio;
     }
-
     public void informacionVivienda() {
-        System.out.println("El tipo de la vivienda es: " + super.getTipo());
-        System.out.println("El precio de la vivienda es: " + super.getPrecio());
-        System.out.println("La superficie de la vivienda es: " + super.getSuperficie());
-        System.out.println("La casa tiene una cantidad de " + cantidadPisos + "pisos");
-        System.out.println("El numero de habitaciones es: " + super.getnHabitaciones());
-        System.out.println("El numero de baños es: " + super.getnBanos());
-        System.out.println("La direccion de la vivienda es: " + super.getDireccion());
-        System.out.println("La vivienda esta: " + super.getEstado());
+        System.out.println("Casa");
+        System.out.println("Precio: " + this.getPrecio());
+        System.out.println("Numero de habitaciones: " + this.getNumeroHabi());
+        System.out.println("Numero de baños: " + this.getNumeroBaos());
+        System.out.println("Direccion: " + this.getDireccion());
+        System.out.println("Area: " + this.getArea());
+        System.out.println("Cantidad de pisos: " + this.cantidadPisos);
+        if (this.patio) {
+            System.out.println("Tiene patio");
+        } else {
+            System.out.println("No tiene patio");
+        }
+        System.out.println("Estado: " + this.getEstado());
     }
-
     public int getCantidadPisos() {
         return this.cantidadPisos;
+    }
+    public boolean getPatio() {
+        return this.patio;
+    }
+    public void setCantidadPisos(int cantidadPisos) {
+        this.cantidadPisos = cantidadPisos;
+    }
+    public void setPatio(boolean patio) {
+        this.patio = patio;
     }
 }

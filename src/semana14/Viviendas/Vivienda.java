@@ -1,28 +1,19 @@
 package Semana14.Viviendas;
-
-import java.util.ArrayList;
-
 public class Vivienda {
     private float precio;
-    private int m;
-    private int nHabitaciones;
-    private int nBanos;
+    private int numeroHabi;
+    private int numeroBaos;
     private String direccion;
-    private String tipo;
     private String estado;
+    private float area;
 
-    public Vivienda(float precio, int m, int nHabitaciones, int nBaños, String direccion, String tipo) {
+    public Vivienda(float precio, int numeroHabi, int numeroBaos, String direccion, float area) {
         this.precio = precio;
-        this.m = m;
-        this.nHabitaciones = nHabitaciones;
-        this.nBanos = nBaños;
+        this.numeroHabi = numeroHabi;
+        this.numeroBaos = numeroBaos;
         this.direccion = direccion;
-        this.tipo = tipo;
         this.estado = "Disponible";
-    }
-
-    public Vivienda() {
-
+        this.area = area;
     }
 
     public void comprarVivienda(float precio) {
@@ -36,68 +27,49 @@ public class Vivienda {
             System.out.println("La vivienda no ha sido comprada");
         }
     }
-
-    public void buscarCostosa(ArrayList<Vivienda> viviendas) {
-        int mayor = 0;
-        float precioM = 0;
-        for (int i = 0; i < viviendas.size(); i++) {
-            if (viviendas.get(i).getPrecio() > precioM) {
-                mayor = i;
-                precioM = viviendas.get(mayor).getPrecio();
-            }
-
-        }
-        System.out.println("La vivienda más costosa es: ");
-        viviendas.get(mayor).informacionVivienda();
-        System.out.println();
-
-    }
-
-    public void buscarBarata(ArrayList<Vivienda> viviendas) {
-        int menor = 0;
-        float preciom = viviendas.get(0).getPrecio();
-        for (int i = 1; i < viviendas.size(); i++) {
-            if (viviendas.get(i).getPrecio() < preciom) {
-                menor = i;
-                preciom = viviendas.get(menor).getPrecio();
-            }
-
-        }
-        System.out.println("La vivienda más barata es: ");
-        viviendas.get(menor).informacionVivienda();
-        System.out.println();
-    }
-
     public void informacionVivienda() {
-
+        System.out.println("Precio: " + precio);
+        System.out.println("Numero de habitaciones: " + numeroHabi);
+        System.out.println("Numero de baños: " + numeroBaos);
+        System.out.println("Direccion: " + direccion);
+        System.out.println("Estado: " + estado);
+        System.out.println("Area: " + area);
     }
-
+    // Getters y Setters
     public float getPrecio() {
-        return this.precio;
+        return precio;
     }
-
-    public float getSuperficie() {
-        return this.m;
+    public int getNumeroHabi() {
+        return numeroHabi;
     }
-
-    public float getnHabitaciones() {
-        return this.nHabitaciones;
+    public int getNumeroBaos() {
+        return numeroBaos;
     }
-
-    public float getnBanos() {
-        return this.nBanos;
-    }
-
     public String getDireccion() {
-        return this.direccion;
+        return direccion;
     }
-
     public String getEstado() {
-        return this.estado;
+        return estado;
     }
-
-    public String getTipo() {
-        return this.tipo;
+    public float getArea() {
+        return area;
     }
-
+    public void setPrecio(float precio) {
+        this.precio = precio;
+    }
+    public void setNumeroHabi(int numeroHabi) {
+        this.numeroHabi = numeroHabi;
+    }
+    public void setNumeroBaos(int numeroBaos) {
+        this.numeroBaos = numeroBaos;
+    }
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+    public void setArea(float area) {
+        this.area = area;
+    }
 }

@@ -1,8 +1,10 @@
 package Semana14.Cuenta;
 
 import java.util.Scanner;
-
-public class PruebaCuenta {
+//Laura Restrepo Berrio
+//Fecha: 12/05/2024
+//Semana 14 Cuentas Bancarias
+public class Main {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         System.out.println("Cuenta de ahorros");

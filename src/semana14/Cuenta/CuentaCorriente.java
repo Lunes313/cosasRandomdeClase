@@ -1,13 +1,10 @@
 package Semana14.Cuenta;
-
 public class CuentaCorriente extends Cuenta {
     float sobregiro;
-
     public CuentaCorriente(float saldo, float tasa) {
         super(saldo, tasa);
         sobregiro = 0;
     }
-
     public void retirar(float cantidad) {
         float resultado = saldo - cantidad;
         if (resultado < 0) {
@@ -17,7 +14,6 @@ public class CuentaCorriente extends Cuenta {
             super.retirar(cantidad);
         }
     }
-
     public void consignar(float cantidad) {
         float residuo = sobregiro - cantidad;
         if (sobregiro > 0) {
@@ -32,11 +28,9 @@ public class CuentaCorriente extends Cuenta {
             super.consignar(cantidad);
         }
     }
-
     public void extractoMensual() {
         super.extractoMensual();
     }
-
     public void imprimir() {
         System.out.println("Saldo = $ " + saldo);
         System.out.println("Cargo mensual = $ " + comisionMensual);
@@ -44,5 +38,4 @@ public class CuentaCorriente extends Cuenta {
         System.out.println("Valor de sogregiro = $" + (numeroConsignaciones + numeroRetiros));
         System.out.println();
     }
-
 }
